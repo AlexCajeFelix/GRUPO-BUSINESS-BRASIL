@@ -10,13 +10,6 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.time.Instant;
 import java.util.UUID;
 
-/**
- * Entidade User - Representa um usuário do sistema
- * Desafio Técnico Grupo Business Brasil
- * 
- * @author Alex Caje Felix
- * @version 1.0.0
- */
 @Entity
 @Table(name = "users", indexes = {
     @Index(name = "idx_users_email", columnList = "email"),
@@ -55,7 +48,6 @@ public class User {
     @Column(name = "deleted_at")
     private Instant deletedAt;
 
-    // Construtores
     public User() {
         this.isActive = true;
     }
@@ -66,7 +58,6 @@ public class User {
         this.email = email;
     }
 
-    // Métodos de negócio
     public void activate() {
         this.isActive = true;
         this.deletedAt = null;
@@ -81,7 +72,6 @@ public class User {
         return this.deletedAt != null;
     }
 
-    // Getters e Setters
     public UUID getId() {
         return id;
     }
