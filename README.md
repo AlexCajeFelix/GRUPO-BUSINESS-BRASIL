@@ -520,5 +520,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 <div align="center">
   <p>Desenvolvido com ❤️ por <strong>Alex Caje Felix</strong> para o processo seletivo do <strong>Grupo Business Brasil</strong></p>
-  <p>© 2024 - Todos os direitos reservados</p>
+  <p>© 2025 - Todos os direitos reservados</p>
 </div>
