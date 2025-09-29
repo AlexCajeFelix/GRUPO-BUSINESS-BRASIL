@@ -1,11 +1,19 @@
-package main.java.com.businessbrasil.api.api_cadastro_usuarios.domain;
+package com.businessbrasil.api.api_cadastro_usuarios.domain._shared.validator;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Notification {
 
-    private final List<String> errors = new ArrayList<>();
+    private final List<String> errors;
+
+    public Notification() {
+        this.errors = new ArrayList<>();
+    }
+
+    public Notification(Notification other) {
+        this.errors = new ArrayList<>(other.errors);
+    }
 
     public void addError(String error) {
         if (error != null && !error.trim().isEmpty()) {
@@ -37,15 +45,4 @@ public class Notification {
         return new Notification();
     }
 
-    public static Notification withError(String error) {
-        Notification notification = new Notification();
-        notification.addError(error);
-        return notification;
-    }
-
-    public static Notification withError(String field, String message) {
-        Notification notification = new Notification();
-        notification.addError(field, message);
-        return notification;
-    }
 }
