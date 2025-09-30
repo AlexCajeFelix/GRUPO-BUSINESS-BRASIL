@@ -762,3 +762,1922 @@
 2025-09-30 17:22:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
 2025-09-30 17:22:32 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.457 seconds (process running for 95.319)
 2025-09-30 17:22:32 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:22:47 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128256 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:22:47 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:22:47 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:22:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-30 17:22:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-30 17:22:48 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 23 class path changes (0 additions, 0 deletions, 23 modifications)
+2025-09-30 17:22:48 [Thread-44] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:22:48 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:22:48 [Thread-44] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:22:48 [Thread-44] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:22:48 [Thread-44] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:22:48 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2025-09-30 17:22:48 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2025-09-30 17:22:48 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 126467 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:22:48 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:22:48 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:22:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:22:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:22:48 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 183 ms
+2025-09-30 17:22:48 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:22:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2025-09-30 17:22:48 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection conn110: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:22:48 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2025-09-30 17:22:48 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:22:48 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:22:48 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.001s)
+2025-09-30 17:22:48 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:22:48 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:22:48 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:22:48 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:22:48 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:22:48 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.008s)
+2025-09-30 17:22:48 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:22:48 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:22:48 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:22:48 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:22:48 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:22:48 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:22:48 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:22:48 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:22:48 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:22:48 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:22:48 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:22:48 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:22:48 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.504 seconds (process running for 111.084)
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:22:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2025-09-30 17:22:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:22:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:22:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:22:49 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:22:49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1215 ms
+2025-09-30 17:22:49 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:22:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-30 17:22:49 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:22:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-30 17:22:49 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:22:49 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:22:49 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.008s)
+2025-09-30 17:22:49 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:22:49 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:22:49 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:22:49 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:22:49 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:22:49 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.004s)
+2025-09-30 17:22:49 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:22:49 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-30 17:22:49 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:22:49 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:22:49 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:22:49 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:22:50 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:22:50 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:22:50 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:22:50 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:22:50 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-30 17:22:51 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:22:51 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:22:51 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:22:51 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:22:51 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:22:51 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:22:51 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-09-30 17:22:51 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:22:51 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-09-30 17:22:51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:22:51 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:22:51 [restartedMain] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:22:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-30 17:22:51 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-30 17:22:51 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-30 17:22:51 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-09-30 17:22:56 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-30 17:22:56 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@cb329f3
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3260864f
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-30 17:22:56 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users?page=0&size=5", parameters={masked}
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:22:56 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        fetch
+            first ? rows only
+2025-09-30 17:22:57 [http-nio-8081-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-30 17:22:57 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:22:57 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 0 containing UNKNOWN instances]
+2025-09-30 17:22:57 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:23:09 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:23:09 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:23:09 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:23:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-30 17:23:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-30 17:23:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:23:10 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-09-30 17:23:10 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:23:10 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:23:10 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:23:10 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:23:10 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 917 ms
+2025-09-30 17:23:11 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:23:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-30 17:23:11 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:23:11 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-30 17:23:11 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:23:11 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:23:11 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.008s)
+2025-09-30 17:23:11 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:23:11 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:23:11 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:23:11 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:23:11 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:23:11 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.004s)
+2025-09-30 17:23:11 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:23:11 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-30 17:23:11 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:23:11 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:23:11 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:23:11 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:23:12 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:23:12 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:23:12 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:23:12 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:23:12 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-30 17:23:12 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:23:12 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:23:12 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:23:12 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:23:12 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:23:13 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:23:13 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:23:13 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:23:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:23:13 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 3.52 seconds (process running for 3.745)
+2025-09-30 17:24:05 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-30 17:24:05 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5ff9a70e
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6d2ab0fc
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-30 17:24:05 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users?page=0&size=5", parameters={masked}
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        fetch
+            first ? rows only
+2025-09-30 17:24:05 [http-nio-8081-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 0 containing UNKNOWN instances]
+2025-09-30 17:24:05 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users", parameters={}
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@27fdada]
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        COUNT(u) > 0 
+    FROM
+        User u 
+    WHERE
+        u.email = :email */ select
+            count(u1_0.id)>0 
+        from
+            users u1_0 
+        where
+            u1_0.email=?
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.deleted_at,
+        u1_0.email,
+        u1_0.is_active,
+        u1_0.name,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    /* insert for
+        com.businessbrasil.api.api_cadastro_usuarios.domain.user.User */insert 
+    into
+        users (created_at, deleted_at, email, is_active, name, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@28bc2ad4]
+2025-09-30 17:24:08 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users", parameters={}
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@41d15a41]
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        COUNT(u) > 0 
+    FROM
+        User u 
+    WHERE
+        u.email = :email */ select
+            count(u1_0.id)>0 
+        from
+            users u1_0 
+        where
+            u1_0.email=?
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.deleted_at,
+        u1_0.email,
+        u1_0.is_active,
+        u1_0.name,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    /* insert for
+        com.businessbrasil.api.api_cadastro_usuarios.domain.user.User */insert 
+    into
+        users (created_at, deleted_at, email, is_active, name, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@e9d3d95]
+2025-09-30 17:24:11 [http-nio-8081-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2025-09-30 17:24:14 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users?page=0&size=10", parameters={masked}
+2025-09-30 17:24:14 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:24:14 [http-nio-8081-exec-6] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        fetch
+            first ? rows only
+2025-09-30 17:24:14 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:14 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:24:14 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:24:18 [http-nio-8081-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users/3239ef97-86c4-47d1-b64b-3b067a838a42", parameters={}
+2025-09-30 17:24:18 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUserById(UUID)
+2025-09-30 17:24:18 [http-nio-8081-exec-8] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.id = :id 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.id=? 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null
+2025-09-30 17:24:18 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:18 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@1472456b]
+2025-09-30 17:24:18 [http-nio-8081-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:24:21 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/v1/users/3239ef97-86c4-47d1-b64b-3b067a838a42", parameters={}
+2025-09-30 17:24:21 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#updateUser(UUID, UpdateUserRequest)
+2025-09-30 17:24:21 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UpdateUserRequest@15f39cda]
+2025-09-30 17:24:21 [http-nio-8081-exec-10] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.id = :id 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.id=? 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null
+2025-09-30 17:24:21 [http-nio-8081-exec-10] DEBUG org.hibernate.SQL - 
+    /* update
+        for com.businessbrasil.api.api_cadastro_usuarios.domain.user.User */update users 
+    set
+        deleted_at=?,
+        email=?,
+        is_active=?,
+        name=?,
+        updated_at=? 
+    where
+        id=?
+2025-09-30 17:24:21 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:21 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@3e8f4344]
+2025-09-30 17:24:21 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:24:25 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users/search", parameters={}
+2025-09-30 17:24:25 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:24:25 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@ed9282e]
+2025-09-30 17:24:25 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        LOWER(u.name) LIKE LOWER(CONCAT('%', :name, '%')) 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL 
+    order by
+        u.name asc */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            lower(u1_0.name) like lower(('%'||?||'%')) escape '' 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        order by
+            u1_0.name 
+        fetch
+            first ? rows only
+2025-09-30 17:24:25 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:25 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:24:25 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:24:28 [http-nio-8081-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/api/v1/users/5bea1549-971b-4d26-ba99-fed06e4b03f8", parameters={}
+2025-09-30 17:24:28 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#deleteUser(UUID)
+2025-09-30 17:24:28 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.id = :id 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.id=? 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null
+2025-09-30 17:24:28 [http-nio-8081-exec-4] DEBUG org.hibernate.SQL - 
+    /* dynamic native SQL query */ UPDATE
+        users 
+    SET
+        is_active = false,
+        deleted_at = CURRENT_TIMESTAMP 
+    WHERE
+        id = ?
+2025-09-30 17:24:28 [http-nio-8081-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 90002, SQLState: 90002
+2025-09-30 17:24:28 [http-nio-8081-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+/* dynamic native SQL query */ UPDATE users SET is_active = false, deleted_at = [90002-232]
+2025-09-30 17:24:28 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2025-09-30 17:24:28 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:28 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/internal-server-error, title=Internal S (truncated)...]
+2025-09-30 17:24:28 [http-nio-8081-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.orm.jpa.JpaSystemException: JDBC exception executing SQL [/* dynamic native SQL query */ UPDATE users SET is_active = false, deleted_at = CURRENT_TIMESTAMP WHERE id = ?] [Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:<EOL>/* dynamic native SQL query */ UPDATE users SET is_active = false, deleted_at = [90002-232]] [n/a]]
+2025-09-30 17:24:28 [http-nio-8081-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2025-09-30 17:24:32 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-09-30 17:24:32 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:24:32 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:24:32 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:24:32 [Thread-5] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:24:32 [Thread-5] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:24:32 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-30 17:24:32 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-30 17:24:32 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:24:32 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:24:32 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:24:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:24:32 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2025-09-30 17:24:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:24:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:24:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:24:32 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:24:32 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 281 ms
+2025-09-30 17:24:33 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:24:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-09-30 17:24:33 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:24:33 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-09-30 17:24:33 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:24:33 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:24:33 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.001s)
+2025-09-30 17:24:33 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:24:33 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:24:33 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:24:33 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:24:33 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:24:33 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.003s)
+2025-09-30 17:24:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:24:33 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:24:33 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:24:33 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:24:33 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:24:33 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:24:33 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:24:33 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:24:33 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:24:33 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:24:33 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:24:33 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:24:33 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:24:33 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:24:33 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:24:33 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:24:33 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:24:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:24:33 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.74 seconds (process running for 83.968)
+2025-09-30 17:24:33 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:24:34 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-09-30 17:24:34 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:24:34 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:24:34 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:24:34 [Thread-7] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:24:34 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:24:34 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-09-30 17:24:34 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-09-30 17:24:34 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:24:34 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:24:34 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:24:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:24:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:24:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:24:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:24:35 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 202 ms
+2025-09-30 17:24:35 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:24:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-09-30 17:24:35 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:24:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-09-30 17:24:35 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:24:35 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:24:35 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.001s)
+2025-09-30 17:24:35 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:24:35 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:24:35 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:24:35 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:24:35 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:24:35 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.002s)
+2025-09-30 17:24:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:24:35 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:24:35 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:24:35 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:24:35 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:24:35 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:24:35 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:24:35 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:24:35 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:24:35 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:24:35 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:24:35 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:24:35 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.569 seconds (process running for 85.957)
+2025-09-30 17:24:35 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:24:36 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-09-30 17:24:36 [Thread-12] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:24:36 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:24:36 [Thread-12] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:24:36 [Thread-12] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:24:36 [Thread-12] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:24:36 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-09-30 17:24:36 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2025-09-30 17:24:36 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:24:36 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:24:36 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:24:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:24:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:24:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:24:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:24:37 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 208 ms
+2025-09-30 17:24:37 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:24:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2025-09-30 17:24:37 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:24:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2025-09-30 17:24:37 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:24:37 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:24:37 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.000s)
+2025-09-30 17:24:37 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:24:37 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:24:37 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:24:37 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:24:37 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:24:37 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.002s)
+2025-09-30 17:24:37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:24:37 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:24:37 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:24:37 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:24:37 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:24:37 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:24:37 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:24:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:24:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:24:37 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:24:37 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:24:37 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:24:37 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.518 seconds (process running for 87.884)
+2025-09-30 17:24:37 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:24:39 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-30 17:24:39 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5230bf95
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@98504d9
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-30 17:24:39 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/api/v1/users/5bea1549-971b-4d26-ba99-fed06e4b03f8", parameters={}
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#deleteUser(UUID)
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.id = :id 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.id=? 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleUserNotFoundException(UserCreatedNotFoundException, WebRequest)
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/user-not-found, title=User Not Found, s (truncated)...]
+2025-09-30 17:24:39 [http-nio-8081-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.service_exception.UserCreatedNotFoundException: Usuário não encontrado]
+2025-09-30 17:24:39 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users", parameters={}
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@5224288f]
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        COUNT(u) > 0 
+    FROM
+        User u 
+    WHERE
+        u.email = :email */ select
+            count(u1_0.id)>0 
+        from
+            users u1_0 
+        where
+            u1_0.email=?
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.deleted_at,
+        u1_0.email,
+        u1_0.is_active,
+        u1_0.name,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    /* insert for
+        com.businessbrasil.api.api_cadastro_usuarios.domain.user.User */insert 
+    into
+        users (created_at, deleted_at, email, is_active, name, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@48a14476]
+2025-09-30 17:24:53 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2025-09-30 17:25:26 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-09-30 17:25:26 [Thread-16] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:25:26 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:25:26 [Thread-16] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:25:26 [Thread-16] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:25:26 [Thread-16] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:25:26 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2025-09-30 17:25:26 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2025-09-30 17:25:26 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:25:26 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:25:26 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:25:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:25:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:25:27 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 254 ms
+2025-09-30 17:25:27 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:25:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2025-09-30 17:25:27 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:25:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2025-09-30 17:25:27 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:25:27 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:25:27 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.000s)
+2025-09-30 17:25:27 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:25:27 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:25:27 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:25:27 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:25:27 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:25:27 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.001s)
+2025-09-30 17:25:27 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:25:27 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:25:27 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:25:27 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:25:27 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:25:27 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:25:27 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:25:27 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:25:27 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:25:27 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:25:27 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:25:27 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:25:27 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.547 seconds (process running for 137.922)
+2025-09-30 17:25:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:25:28 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-09-30 17:25:28 [Thread-20] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:25:28 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:25:28 [Thread-20] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:25:28 [Thread-20] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:25:28 [Thread-20] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:25:28 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2025-09-30 17:25:28 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2025-09-30 17:25:28 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:25:28 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:25:28 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:25:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:25:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:25:29 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:25:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:25:29 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 218 ms
+2025-09-30 17:25:29 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:25:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2025-09-30 17:25:29 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:25:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2025-09-30 17:25:29 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:25:29 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:25:29 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.001s)
+2025-09-30 17:25:29 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:25:29 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:25:29 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:25:29 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:25:29 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:25:29 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.001s)
+2025-09-30 17:25:29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:25:29 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:25:29 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:25:29 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:25:29 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:25:29 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:25:29 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:25:29 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:25:29 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:25:29 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:25:29 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:25:29 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:25:29 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.535 seconds (process running for 139.88)
+2025-09-30 17:25:29 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:25:30 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-30 17:25:30 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2a87ebc9
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1d12ee7
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-09-30 17:25:30 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users?page=0&size=5", parameters={masked}
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        fetch
+            first ? rows only
+2025-09-30 17:25:30 [http-nio-8081-exec-1] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 0 containing UNKNOWN instances]
+2025-09-30 17:25:30 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users", parameters={}
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@6fec0fae]
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        COUNT(u) > 0 
+    FROM
+        User u 
+    WHERE
+        u.email = :email */ select
+            count(u1_0.id)>0 
+        from
+            users u1_0 
+        where
+            u1_0.email=?
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.deleted_at,
+        u1_0.email,
+        u1_0.is_active,
+        u1_0.name,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    /* insert for
+        com.businessbrasil.api.api_cadastro_usuarios.domain.user.User */insert 
+    into
+        users (created_at, deleted_at, email, is_active, name, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@56f6f42e]
+2025-09-30 17:25:34 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users", parameters={}
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@31495b9e]
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        COUNT(u) > 0 
+    FROM
+        User u 
+    WHERE
+        u.email = :email */ select
+            count(u1_0.id)>0 
+        from
+            users u1_0 
+        where
+            u1_0.email=?
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.deleted_at,
+        u1_0.email,
+        u1_0.is_active,
+        u1_0.name,
+        u1_0.updated_at 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    /* insert for
+        com.businessbrasil.api.api_cadastro_usuarios.domain.user.User */insert 
+    into
+        users (created_at, deleted_at, email, is_active, name, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@de396f4]
+2025-09-30 17:25:37 [http-nio-8081-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2025-09-30 17:25:44 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users?page=0&size=10", parameters={masked}
+2025-09-30 17:25:44 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:25:44 [http-nio-8081-exec-6] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        fetch
+            first ? rows only
+2025-09-30 17:25:44 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:25:44 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:25:44 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:25:48 [http-nio-8081-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users/7b9f31d7-bc28-4a15-a90c-d5e050c6393d", parameters={}
+2025-09-30 17:25:48 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUserById(UUID)
+2025-09-30 17:25:48 [http-nio-8081-exec-8] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.id = :id 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.id=? 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null
+2025-09-30 17:25:48 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:25:48 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@5cfce3c0]
+2025-09-30 17:25:48 [http-nio-8081-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:25:53 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/api/v1/users/7b9f31d7-bc28-4a15-a90c-d5e050c6393d", parameters={}
+2025-09-30 17:25:53 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#updateUser(UUID, UpdateUserRequest)
+2025-09-30 17:25:53 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UpdateUserRequest@272a454b]
+2025-09-30 17:25:53 [http-nio-8081-exec-10] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.id = :id 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.id=? 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null
+2025-09-30 17:25:53 [http-nio-8081-exec-10] DEBUG org.hibernate.SQL - 
+    /* update
+        for com.businessbrasil.api.api_cadastro_usuarios.domain.user.User */update users 
+    set
+        deleted_at=?,
+        email=?,
+        is_active=?,
+        name=?,
+        updated_at=? 
+    where
+        id=?
+2025-09-30 17:25:53 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:25:53 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@547d8fa2]
+2025-09-30 17:25:53 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:26:02 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users/search", parameters={}
+2025-09-30 17:26:02 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:26:02 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@712d305a]
+2025-09-30 17:26:02 [http-nio-8081-exec-2] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        LOWER(u.name) LIKE LOWER(CONCAT('%', :name, '%')) 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL 
+    order by
+        u.name asc */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            lower(u1_0.name) like lower(('%'||?||'%')) escape '' 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        order by
+            u1_0.name 
+        fetch
+            first ? rows only
+2025-09-30 17:26:02 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:26:02 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:26:02 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:26:09 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/api/v1/users/da0cfc24-2efc-4caa-80af-16d4189d1ae7", parameters={}
+2025-09-30 17:26:09 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#deleteUser(UUID)
+2025-09-30 17:26:09 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.id = :id 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.id=? 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null
+2025-09-30 17:26:09 [http-nio-8081-exec-3] DEBUG org.hibernate.SQL - 
+    /* dynamic native SQL query */ UPDATE
+        users 
+    SET
+        is_active = false,
+        deleted_at = CURRENT_TIMESTAMP 
+    WHERE
+        id = ?
+2025-09-30 17:26:09 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2025-09-30 17:26:09 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 204 NO_CONTENT
+2025-09-30 17:26:21 [http-nio-8081-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users?page=0&size=10", parameters={masked}
+2025-09-30 17:26:21 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:26:21 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        fetch
+            first ? rows only
+2025-09-30 17:26:21 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:26:21 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:26:21 [http-nio-8081-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:26:25 [http-nio-8081-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users", parameters={}
+2025-09-30 17:26:25 [http-nio-8081-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:26:25 [http-nio-8081-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@74dac0b1]
+2025-09-30 17:26:25 [http-nio-8081-exec-7] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        COUNT(u) > 0 
+    FROM
+        User u 
+    WHERE
+        u.email = :email */ select
+            count(u1_0.id)>0 
+        from
+            users u1_0 
+        where
+            u1_0.email=?
+2025-09-30 17:26:25 [http-nio-8081-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleUserNotFoundException(UserCreatedNotFoundException, WebRequest)
+2025-09-30 17:26:25 [http-nio-8081-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:26:25 [http-nio-8081-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/user-not-found, title=User Not Found, s (truncated)...]
+2025-09-30 17:26:25 [http-nio-8081-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.service_exception.UserCreatedNotFoundException: Email já está em uso]
+2025-09-30 17:26:25 [http-nio-8081-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2025-09-30 17:26:28 [http-nio-8081-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/v1/users/search", parameters={}
+2025-09-30 17:26:28 [http-nio-8081-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:26:28 [http-nio-8081-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@4bb3924a]
+2025-09-30 17:26:28 [http-nio-8081-exec-9] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        LOWER(u.email) LIKE LOWER(CONCAT('%', :email, '%')) 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL 
+    order by
+        u.name asc */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            lower(u1_0.email) like lower(('%'||?||'%')) escape '' 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null 
+        order by
+            u1_0.name 
+        fetch
+            first ? rows only
+2025-09-30 17:26:28 [http-nio-8081-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:26:28 [http-nio-8081-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:26:28 [http-nio-8081-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2025-09-30 17:26:31 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/v1/users/00000000-0000-0000-0000-000000000000", parameters={}
+2025-09-30 17:26:31 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUserById(UUID)
+2025-09-30 17:26:31 [http-nio-8081-exec-1] DEBUG org.hibernate.SQL - 
+    /* SELECT
+        u 
+    FROM
+        User u 
+    WHERE
+        u.id = :id 
+        AND u.isActive = true 
+        AND u.deletedAt IS NULL */ select
+            u1_0.id,
+            u1_0.created_at,
+            u1_0.deleted_at,
+            u1_0.email,
+            u1_0.is_active,
+            u1_0.name,
+            u1_0.updated_at 
+        from
+            users u1_0 
+        where
+            u1_0.id=? 
+            and u1_0.is_active=true 
+            and u1_0.deleted_at is null
+2025-09-30 17:26:31 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleUserNotFoundException(UserCreatedNotFoundException, WebRequest)
+2025-09-30 17:26:31 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:26:31 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/user-not-found, title=User Not Found, s (truncated)...]
+2025-09-30 17:26:31 [http-nio-8081-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.service_exception.UserCreatedNotFoundException: Usuário não encontrado]
+2025-09-30 17:26:31 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2025-09-30 17:26:38 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-09-30 17:26:38 [Thread-24] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:26:38 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:26:38 [Thread-24] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:26:38 [Thread-24] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:26:38 [Thread-24] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:26:38 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2025-09-30 17:26:38 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2025-09-30 17:26:38 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:26:38 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:26:38 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:26:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:26:38 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:26:39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:26:39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:26:39 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 203 ms
+2025-09-30 17:26:39 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:26:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2025-09-30 17:26:39 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection conn60: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:26:39 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2025-09-30 17:26:39 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:26:39 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:26:39 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.000s)
+2025-09-30 17:26:39 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:26:39 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:26:39 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:26:39 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:26:39 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:26:39 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.001s)
+2025-09-30 17:26:39 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:26:39 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:26:39 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:26:39 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:26:39 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:26:39 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:26:39 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:26:39 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:26:39 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:26:39 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:26:39 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:26:39 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:26:39 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.502 seconds (process running for 209.877)
+2025-09-30 17:26:39 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:26:54 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-09-30 17:26:54 [Thread-28] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:26:54 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:26:54 [Thread-28] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:26:54 [Thread-28] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:26:54 [Thread-28] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:26:54 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2025-09-30 17:26:54 [Thread-28] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2025-09-30 17:26:54 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:26:54 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:26:54 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:26:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:26:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-09-30 17:26:54 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:26:54 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:26:54 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:26:54 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:26:54 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 196 ms
+2025-09-30 17:26:54 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:26:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2025-09-30 17:26:55 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection conn70: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:26:55 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2025-09-30 17:26:55 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:26:55 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:26:55 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.001s)
+2025-09-30 17:26:55 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:26:55 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:26:55 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:26:55 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:26:55 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:26:55 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.001s)
+2025-09-30 17:26:55 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:26:55 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:26:55 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:26:55 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:26:55 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:26:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:26:55 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:26:55 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:26:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:26:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:26:55 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:26:55 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:26:55 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:26:55 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:26:55 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:26:55 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:26:55 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:26:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:26:55 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.485 seconds (process running for 225.799)
+2025-09-30 17:26:55 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:27:01 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 30 class path changes (0 additions, 0 deletions, 30 modifications)
+2025-09-30 17:27:01 [Thread-32] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:27:01 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:27:01 [Thread-32] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:27:01 [Thread-32] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:27:01 [Thread-32] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:27:01 [Thread-32] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2025-09-30 17:27:01 [Thread-32] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2025-09-30 17:27:01 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Starting ApiCadastroUsuariosApplication using Java 21.0.8 with PID 128799 (/home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios/target/classes started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:27:01 [restartedMain] DEBUG c.b.a.a.ApiCadastroUsuariosApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:27:01 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - The following 1 profile is active: "dev"
+2025-09-30 17:27:01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:27:01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2025-09-30 17:27:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-09-30 17:27:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-30 17:27:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-09-30 17:27:01 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/api/v1] - Initializing Spring embedded WebApplicationContext
+2025-09-30 17:27:01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 188 ms
+2025-09-30 17:27:01 [restartedMain] DEBUG o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2025-09-30 17:27:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2025-09-30 17:27:01 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection conn80: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:27:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2025-09-30 17:27:01 [restartedMain] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:27:01 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:27:01 [restartedMain] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.000s)
+2025-09-30 17:27:01 [restartedMain] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:27:01 [restartedMain] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:27:01 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:27:01 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:27:01 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:27:01 [restartedMain] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.000s)
+2025-09-30 17:27:01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:27:01 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:27:01 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:27:01 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:27:01 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:27:01 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:27:01 [restartedMain] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:27:01 [restartedMain] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:27:01 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:27:01 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:27:02 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:27:02 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:27:02 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:27:02 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:27:02 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:27:02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-09-30 17:27:02 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:27:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/api/v1'
+2025-09-30 17:27:02 [restartedMain] INFO  c.b.a.a.ApiCadastroUsuariosApplication - Started ApiCadastroUsuariosApplication in 0.428 seconds (process running for 232.649)
+2025-09-30 17:27:02 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-09-30 17:27:30 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-30 17:27:30 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-30 17:27:30 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:27:30 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:27:30 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-09-30 17:27:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2025-09-30 17:27:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2025-09-30 17:33:52 [main] INFO  c.b.a.a.c.UserControllerTest - Starting UserControllerTest using Java 21.0.8 with PID 137121 (started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:33:52 [main] DEBUG c.b.a.a.c.UserControllerTest - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:33:52 [main] INFO  c.b.a.a.c.UserControllerTest - The following 1 profile is active: "dev"
+2025-09-30 17:33:52 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5bc63e20
+2025-09-30 17:33:53 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:33:53 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:33:53 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:33:53 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:33:53 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-30 17:33:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-09-30 17:33:53 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-30 17:33:53 [main] INFO  c.b.a.a.c.UserControllerTest - Started UserControllerTest in 1.374 seconds (process running for 4.466)
+2025-09-30 17:33:53 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUserById(UUID)
+2025-09-30 17:33:53 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:33:53 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@54e18a46]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#updateUser(UUID, UpdateUserRequest)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UpdateUserRequest@328e50eb]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@2befb16f]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@6ee1ddcf]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#deleteUser(UUID)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@3be369fc]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleGenericException(Exception, WebRequest)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/internal-server-error, title=Internal S (truncated)...]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException: Cannot invoke "com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse.getId()" because "user" is null]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@33b2ba25]
+2025-09-30 17:33:54 [main] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#updateUser(UUID, UpdateUserRequest)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UpdateUserRequest@1ab502f6]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@2a8e30e3]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@5b32e0b1]
+2025-09-30 17:33:54 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2025-09-30 17:33:54 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplicationTests]: ApiCadastroUsuariosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-30 17:33:54 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplication for test class com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplicationTests
+2025-09-30 17:33:54 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-09-30 17:33:54 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - Starting ApiCadastroUsuariosApplicationTests using Java 21.0.8 with PID 137121 (started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:33:54 [main] DEBUG c.b.a.a.ApiCadastroUsuariosApplicationTests - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:33:54 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - The following 1 profile is active: "dev"
+2025-09-30 17:33:54 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@45cf0c15
+2025-09-30 17:33:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:33:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-09-30 17:33:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-30 17:33:55 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:33:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-30 17:33:55 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:33:55 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:33:55 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.010s)
+2025-09-30 17:33:55 [main] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:33:55 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:33:55 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:33:55 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:33:55 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:33:55 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.006s)
+2025-09-30 17:33:55 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:33:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-30 17:33:55 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:33:55 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:33:55 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:33:55 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:33:56 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:33:56 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:33:56 [main] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:33:56 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:33:56 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-30 17:33:57 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:33:57 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:33:57 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:33:57 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:33:57 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:33:57 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:33:57 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:33:57 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - Started ApiCadastroUsuariosApplicationTests in 3.578 seconds (process running for 8.397)
+2025-09-30 17:33:57 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5bc63e20, started on Tue Sep 30 17:33:52 BRT 2025
+2025-09-30 17:33:57 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@45cf0c15, started on Tue Sep 30 17:33:54 BRT 2025
+2025-09-30 17:33:57 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:33:57 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:33:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-30 17:33:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-30 17:35:18 [main] INFO  c.b.a.a.c.UserControllerTest - Starting UserControllerTest using Java 21.0.8 with PID 138298 (started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:35:18 [main] DEBUG c.b.a.a.c.UserControllerTest - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:35:18 [main] INFO  c.b.a.a.c.UserControllerTest - The following 1 profile is active: "dev"
+2025-09-30 17:35:18 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@20cdb152
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:35:19 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-30 17:35:19 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-09-30 17:35:19 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-09-30 17:35:19 [main] INFO  c.b.a.a.c.UserControllerTest - Started UserControllerTest in 1.188 seconds (process running for 2.768)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUserById(UUID)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@71687d8f]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#updateUser(UUID, UpdateUserRequest)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UpdateUserRequest@68550d86]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleUserNotFoundException(UserCreatedNotFoundException, WebRequest)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/user-not-found, title=User Not Found, s (truncated)...]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.service_exception.UserCreatedNotFoundException: Validation Error]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@35744f8]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@7455204c]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#deleteUser(UUID)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@5895c065]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleUserNotFoundException(UserCreatedNotFoundException, WebRequest)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/user-not-found, title=User Not Found, s (truncated)...]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.service_exception.UserCreatedNotFoundException: Validation Error]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@2212e291]
+2025-09-30 17:35:19 [main] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#updateUser(UUID, UpdateUserRequest)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UpdateUserRequest@32cde414]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@e4bb10b]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@5265a8dd]
+2025-09-30 17:35:19 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2025-09-30 17:35:19 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplicationTests]: ApiCadastroUsuariosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-30 17:35:19 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplication for test class com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplicationTests
+2025-09-30 17:35:19 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-09-30 17:35:19 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - Starting ApiCadastroUsuariosApplicationTests using Java 21.0.8 with PID 138298 (started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:35:19 [main] DEBUG c.b.a.a.ApiCadastroUsuariosApplicationTests - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:35:19 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - The following 1 profile is active: "dev"
+2025-09-30 17:35:19 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@37a1beb3
+2025-09-30 17:35:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:35:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2025-09-30 17:35:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-30 17:35:20 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:35:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-30 17:35:20 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:35:20 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:35:20 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.009s)
+2025-09-30 17:35:20 [main] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:35:20 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:35:20 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:35:20 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:35:20 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:35:20 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.004s)
+2025-09-30 17:35:20 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:35:20 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-30 17:35:20 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:35:20 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:35:21 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:35:21 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:35:21 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:35:21 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:35:21 [main] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:35:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:35:21 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-30 17:35:22 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:35:22 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:35:22 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:35:22 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:35:22 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:35:22 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:35:22 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:35:22 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - Started ApiCadastroUsuariosApplicationTests in 3.015 seconds (process running for 6.062)
+2025-09-30 17:35:22 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@20cdb152, started on Tue Sep 30 17:35:18 BRT 2025
+2025-09-30 17:35:22 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@37a1beb3, started on Tue Sep 30 17:35:19 BRT 2025
+2025-09-30 17:35:22 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:35:22 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:35:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-30 17:35:22 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-30 17:39:00 [main] INFO  c.b.a.a.c.UserControllerTest - Starting UserControllerTest using Java 21.0.8 with PID 141627 (started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:39:00 [main] DEBUG c.b.a.a.c.UserControllerTest - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:39:00 [main] INFO  c.b.a.a.c.UserControllerTest - The following 1 profile is active: "dev"
+2025-09-30 17:39:00 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@20cdb152
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:39:01 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-30 17:39:01 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-09-30 17:39:01 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-30 17:39:01 [main] INFO  c.b.a.a.c.UserControllerTest - Started UserControllerTest in 1.134 seconds (process running for 2.76)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUserById(UUID)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@7305cfb1]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#updateUser(UUID, UpdateUserRequest)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UpdateUserRequest@4b475742]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleUserNotFoundException(UserCreatedNotFoundException, WebRequest)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/user-not-found, title=User Not Found, s (truncated)...]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.service_exception.UserCreatedNotFoundException: Validation Error]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@2ed84be9]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@2e9dcdd3]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#deleteUser(UUID)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#createUser(CreateUserRequest, UriComponentsBuilder)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.CreateUserRequest@1ef5cde4]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.global_Exception.GlobalExceptionHandler#handleUserNotFoundException(UserCreatedNotFoundException, WebRequest)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ErrorMessageDto[type=https://api.businessbrasil.com/problems/user-not-found, title=User Not Found, s (truncated)...]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.businessbrasil.api.api_cadastro_usuarios.domain._shared.exception.service_exception.UserCreatedNotFoundException: Validation Error]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@129c322f]
+2025-09-30 17:39:01 [main] WARN  o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#getUsers(Pageable)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Page 1 of 1 containing com.businessbrasil.api.api_cadastro_usuarios.domain.user.User instances]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#updateUser(UUID, UpdateUserRequest)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UpdateUserRequest@63b0b3dd]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserResponse@397dfbe8]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.businessbrasil.api.api_cadastro_usuarios.controller.UserController#searchUsers(UserSearchRequest)
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.businessbrasil.api.api_cadastro_usuarios.service.dto.UserSearchRequest@e4bb10b]
+2025-09-30 17:39:01 [main] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/octet-stream', given [*/*] and supported [*/*]
+2025-09-30 17:39:01 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplicationTests]: ApiCadastroUsuariosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-30 17:39:01 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplication for test class com.businessbrasil.api.api_cadastro_usuarios.ApiCadastroUsuariosApplicationTests
+2025-09-30 17:39:01 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2025-09-30 17:39:01 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - Starting ApiCadastroUsuariosApplicationTests using Java 21.0.8 with PID 141627 (started by alek in /home/alek/Desktop/Desafio Tecnico/api-cadastro-usuarios)
+2025-09-30 17:39:01 [main] DEBUG c.b.a.a.ApiCadastroUsuariosApplicationTests - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-09-30 17:39:01 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - The following 1 profile is active: "dev"
+2025-09-30 17:39:01 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@35840ecc
+2025-09-30 17:39:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-30 17:39:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2025-09-30 17:39:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-30 17:39:02 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:devdb user=SA
+2025-09-30 17:39:02 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-30 17:39:02 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:mem:devdb (H2 2.3)
+2025-09-30 17:39:02 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025-09-30 17:39:02 [main] INFO  o.f.core.internal.command.DbValidate - Successfully validated 2 migrations (execution time 00:00.009s)
+2025-09-30 17:39:02 [main] INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-09-30 17:39:02 [main] INFO  o.f.c.i.s.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025-09-30 17:39:02 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": << Empty Schema >>
+2025-09-30 17:39:02 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "1 - Create users table"
+2025-09-30 17:39:02 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "2 - Insert sample users"
+2025-09-30 17:39:02 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.006s)
+2025-09-30 17:39:02 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-30 17:39:02 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-09-30 17:39:02 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-30 17:39:02 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-30 17:39:02 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-30 17:39:02 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-30 17:39:03 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-30 17:39:03 [main] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:39:03 [main] DEBUG org.hibernate.SQL - 
+    create table users (
+        is_active boolean not null,
+        created_at timestamp(6) with time zone not null,
+        deleted_at timestamp(6) with time zone,
+        updated_at timestamp(6) with time zone,
+        id uuid not null,
+        email varchar(255) not null unique,
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-30 17:39:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:39:03 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-30 17:39:04 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-30 17:39:04 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 8 mappings in 'requestMappingHandlerMapping'
+2025-09-30 17:39:04 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-09-30 17:39:04 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-30 17:39:04 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-30 17:39:04 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:devdb'
+2025-09-30 17:39:04 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2025-09-30 17:39:04 [main] INFO  c.b.a.a.ApiCadastroUsuariosApplicationTests - Started ApiCadastroUsuariosApplicationTests in 2.864 seconds (process running for 5.898)
+2025-09-30 17:39:04 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@20cdb152, started on Tue Sep 30 17:39:00 BRT 2025
+2025-09-30 17:39:04 [SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@35840ecc, started on Tue Sep 30 17:39:01 BRT 2025
+2025-09-30 17:39:04 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-30 17:39:04 [SpringApplicationShutdownHook] DEBUG org.hibernate.SQL - 
+    drop table if exists users cascade 
+2025-09-30 17:39:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-30 17:39:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

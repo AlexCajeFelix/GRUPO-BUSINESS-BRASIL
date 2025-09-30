@@ -22,18 +22,18 @@ public class UserValidator extends Validator<User> {
         if (user.getName() == null || user.getName().isEmpty() || user.getName().length() < MIN_NAME_LENGTH) {
             notification.addError("Name is required and must be at least 2 characters long");
         }
-        if (user.getEmail() == null || user.getEmail().isEmpty() || user.getEmail().length() > MAX_EMAIL_LENGTH) {
-            notification.addError("Email is required and must be less than 255 characters long");
-
-        }
-        if (!user.getEmail().matches(EMAIL_REGEX)) {
-            notification.addError("Email is not valid");
-        }
-        if (user.getEmail().length() > MAX_EMAIL_LENGTH) {
-            notification.addError("Email must be less than 255 characters long");
-        }
-        if (user.getEmail().length() < MIN_NAME_LENGTH) {
-            notification.addError("Email must be at least 2 characters long");
+        if (user.getEmail() == null || user.getEmail().isEmpty()) {
+            notification.addError("Email is required");
+        } else {
+            if (user.getEmail().length() > MAX_EMAIL_LENGTH) {
+                notification.addError("Email must be less than 255 characters long");
+            }
+            if (!user.getEmail().matches(EMAIL_REGEX)) {
+                notification.addError("Email is not valid");
+            }
+            if (user.getEmail().length() < MIN_NAME_LENGTH) {
+                notification.addError("Email must be at least 2 characters long");
+            }
         }
 
     }
