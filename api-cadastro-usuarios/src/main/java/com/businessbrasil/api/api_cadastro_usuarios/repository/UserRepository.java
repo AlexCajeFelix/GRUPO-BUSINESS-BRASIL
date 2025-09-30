@@ -18,7 +18,7 @@ public interface UserRepository extends JpaRepository<User, UUID> {
 
     Optional<User> findByEmail(String email);
 
-    Page<User> findAll(Pageable pageable);
+    Page findAll(Pageable pageable);
 
     @Query("SELECT COUNT(u) > 0 FROM User u WHERE u.email = :email")
     boolean existsByEmail(String email);
